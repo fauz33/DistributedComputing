@@ -6,4 +6,4 @@ Workflow management engine: HTCondor DAGMan
 
 Workflow use case: [Montage](http://montage.ipac.caltech.edu/docs/montagescript.html)
 
-![GitHub Light](Workflow-Diagram.png)
+![GitHub Light](Workflow-Diagram.png =250x250)
