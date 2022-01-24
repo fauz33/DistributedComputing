@@ -1,0 +1,15 @@
+JOB housekeep /nfsfolder/distributedComp/housekeep.job
+JOB mHdr /nfsfolder/distributedComp/mHdr.job
+JOB job1 /nfsfolder/distributedComp/1/job1.job
+JOB job2 /nfsfolder/distributedComp/2/job2.job
+JOB job3 /nfsfolder2/distributedComp/3/job3.job
+JOB mAdd1 /nfsfolder/distributedComp/1/mAdd1.job
+JOB mAdd2 /nfsfolder/distributedComp/2/mAdd2.job
+JOB mAdd3 /nfsfolder2/distributedComp/3/mAdd3.job
+JOB mViewer /nfsfolder/distributedComp/4/mViewer.job
+PARENT housekeep CHILD mHdr
+PARENT mHdr CHILD job1 job2 job3
+PARENT job1 CHILD mAdd1
+PARENT job2 CHILD mAdd2
+PARENT job3 CHILD mAdd3
+PARENT mAdd1 mAdd2 mAdd3 CHILD mViewer

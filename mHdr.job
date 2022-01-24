@@ -1,0 +1,7 @@
+executable   = /nfsfolder/distributedComp/mHdr.sh
+
+output       = /nfsfolder/distributedComp/outputfilemHdr
+error        = /nfsfolder/distributedComp/errorfilemHdr
+log          = /nfsfolder/distributedComp/outmHdr.log
+
+queue

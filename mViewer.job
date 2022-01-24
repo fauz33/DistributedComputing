@@ -1,0 +1,7 @@
+executable   = /nfsfolder/distributedComp/4/mViewer.sh
+
+output       = /nfsfolder/distributedComp/4/outputfile
+error        = /nfsfolder/distributedComp/4/errorfile
+log          = /nfsfolder/distributedComp/4/out.log
+
+queue

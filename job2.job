@@ -1,0 +1,7 @@
+executable   = /nfsfolder/distributedComp/2/job2.sh
+
+output       = /nfsfolder/distributedComp/2/outputfile
+error        = /nfsfolder/distributedComp/2/errorfile
+log          = /nfsfolder/distributedComp/2/out.log
+
+queue

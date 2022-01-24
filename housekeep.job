@@ -1,0 +1,7 @@
+executable   = /nfsfolder/distributedComp/housekeep.sh
+
+output       = /nfsfolder/distributedComp/outputfilehousekeep
+error        = /nfsfolder/distributedComp/errorfilehousekeep
+log          = /nfsfolder/distributedComp/outhousekeep.log
+
+queue

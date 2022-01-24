@@ -1,0 +1,7 @@
+executable   = /nfsfolder2/distributedComp/3/mAdd3.sh
+
+output       = /nfsfolder2/distributedComp/3/outputfilemAdd3
+error        = /nfsfolder2/distributedComp/3/errorfilemAdd3
+log          = /nfsfolder2/distributedComp/3/outmAdd3.log
+
+queue
