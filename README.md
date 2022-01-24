@@ -8,4 +8,4 @@ Workflow use case: [Montage](http://montage.ipac.caltech.edu/docs/montagescript.
 
 Workflow Diagram
 
-<img src="Workflow-Diagram.png" height="250">
+<img src="Workflow-Diagram.png" height="500">
